@@ -39,5 +39,11 @@ public class AppTest {
         String result = appForTest.gradingMarks(marks);
         assertEquals("E", result);
     }
+    @Test
+    public void testGradingMarksOfEmptyArray(){
+        int [] marks  = {};
+        String result = appForTest.gradingMarks(marks);
+        assertEquals("Empty array", result);
+    }
 
 }

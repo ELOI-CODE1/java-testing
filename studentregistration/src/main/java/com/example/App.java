@@ -9,8 +9,12 @@ public class App {
 
         int sum=0;
 
-        for (int i=0;i<marks.length;i++){
-            sum +=marks[i];
+        if (marks.length == 0) {
+            return "Empty array";
+        }else{
+            for (int i=0;i<marks.length;i++){
+                sum +=marks[i];
+                }
         }
 
         int average = sum/marks.length;
