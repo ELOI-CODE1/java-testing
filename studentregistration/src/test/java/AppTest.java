@@ -47,13 +47,13 @@ public class AppTest {
     }
     @Test
     public void testCheckEvenArray(){
-        int [] myArray = {30,28,20,80};
+        int [] myArray = {1,2,3,4,5,6,7,8,9,10};
         String result = appForTest.checkEvenArray(myArray);
         assertEquals("Even", result);
     }
     @Test
     public void testCheckOddArray(){
-        int [] myArray = {20,39,02};
+        int [] myArray = {2,4,6,8,10};
         String result =appForTest.checkEvenArray(myArray);
         assertEquals("Odd", result);
     }
