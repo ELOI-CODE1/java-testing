@@ -45,5 +45,16 @@ public class AppTest {
         String result = appForTest.gradingMarks(marks);
         assertEquals("Empty array", result);
     }
-
+    @Test
+    public void testCheckEvenArray(){
+        int [] myArray = {30,28,20,80};
+        String result = appForTest.checkEvenArray(myArray);
+        assertEquals("Even", result);
+    }
+    @Test
+    public void testCheckOddArray(){
+        int [] myArray = {20,39,02};
+        String result =appForTest.checkEvenArray(myArray);
+        assertEquals("Odd", result);
+    }
 }

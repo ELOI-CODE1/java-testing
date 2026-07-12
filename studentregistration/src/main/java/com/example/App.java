@@ -57,5 +57,14 @@ public class App {
             return "Incorrect input message";
         }
     }
+    public String checkEvenArray(int [] myArray){
+        int arrayLength = myArray.length;
+        
+        if (arrayLength % 2 == 0) {
+            return "Even";
+        }else{
+            return "Odd";
+        }
+    }
     
 }
