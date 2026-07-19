@@ -5,6 +5,9 @@ public class App {
     public int addTwoNumbers(int a,int b){
         return a+b;
     }
+    public int substractTwoNumbers(int num1, int num2){
+        return num1 - num2;
+    }
     public String gradingMarks(int [] marks){
 
         int sum=0;
