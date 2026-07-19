@@ -1,5 +1,5 @@
 package com.example.domain;
 
-public class Gender {
-    
+public enum Gender {
+    MALE,FEMALE;
 }
