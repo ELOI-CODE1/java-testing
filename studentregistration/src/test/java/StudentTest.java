@@ -14,5 +14,8 @@ public class StudentTest {
         oneStudent.setLastName("Mubi");
         oneStudent.setGender("male");
         oneStudent.setDateOfbirth("12/10/2013");
+
+        String result = service.saveStudent(oneStudent);
+        
     }
 }
