@@ -57,4 +57,9 @@ public class AppTest {
         String result =appForTest.checkEvenArray(myArray);
         assertEquals("Odd", result);
     }
+    @Test
+    public void testSubstractionMethod(){
+        int result = appForTest.substractTwoNumbers(20,10);
+        assertEquals(10, result);
+    }
 }
