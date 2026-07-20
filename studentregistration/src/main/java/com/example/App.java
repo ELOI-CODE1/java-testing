@@ -39,7 +39,7 @@ public class App {
     }
     public String ageChecker(String gender, int age){
         if (age<8 && gender=="female") {
-            return "Hello baby girl";
+            return "Hello baby girl.";
         }else if (age<8 && gender == "boy") {
             return "Hello baby boy";
         }else if (age < 18 && gender == "female") {
