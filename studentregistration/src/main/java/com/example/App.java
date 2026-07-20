@@ -19,7 +19,6 @@ public class App {
                 sum +=marks[i];
                 }
         }
-
         int average = sum/marks.length;
 
         if (average >= 90) {
@@ -40,7 +39,7 @@ public class App {
     }
     public String ageChecker(String gender, int age){
         if (age<8 && gender=="female") {
-            return "Hello baby girl";
+            return "Hello baby girl.";
         }else if (age<8 && gender == "boy") {
             return "Hello baby boy";
         }else if (age < 18 && gender == "female") {
@@ -54,7 +53,7 @@ public class App {
         }else if (age > 35 && gender == "female") {
             return "Hello maam";
         }else if (age > 35 && gender == "male") {
-            return "Hello sir";
+            return "Hello sir ";
         }
         else{
             return "Incorrect input message";
