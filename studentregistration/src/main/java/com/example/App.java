@@ -13,7 +13,7 @@ public class App {
         int sum=0;
 
         if (marks.length == 0) {
-            return "Empty array ";
+            return "Empty array";
         }else{
             for (int i=0;i<marks.length;i++){
                 sum +=marks[i];
