@@ -19,7 +19,6 @@ public class App {
                 sum +=marks[i];
                 }
         }
-
         int average = sum/marks.length;
 
         if (average >= 90) {
